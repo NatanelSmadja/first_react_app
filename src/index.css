@@ -1,47 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
 
 html{
-    direction: rtl;
+    /* direction: rtl; */
+
 }
 
 body{
     background-color: #2c2c2c;
-    font-family: 'Arimo';
+    font-size:1.2em;
+    font-family: 'Arimo', sans-serif;
     color:#fff;
 }
 
-.box1{
-
-}
-.box2{
-}
 
 .container{
     margin-top:5%;
 }
-.img{width:100%; }
-
-.img_news{
-    width:100%;
-    height:auto;
-    background-size: cover;
-    border-radius: 6px;
-}
-
-.crop{
-    overflow: hidden;
-}
 
 .rowItem{
     margin-bottom:3%;
-    
-}
-
-p.news_title{
-    color:#000;
-    font-size: 1em;
-    text-align: right;
-    font-family: 'Arimo', sans-serif;
 }
 
 .news_cont{
